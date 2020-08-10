@@ -1,1 +1,1 @@
-# clews_ethiopia_model
+# CLEWS Ethiopia Model
