@@ -10,6 +10,14 @@ Welcome to CLEWS Ethiopia Model's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   user/overview
+   user/scope
+   user/structure
+   user/data
+   user/scenarios
+   user/results
+   user/conclusions
+   user/annex
 
 
 Indices and tables
