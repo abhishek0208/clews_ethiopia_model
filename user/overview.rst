@@ -9,7 +9,7 @@ As part of this commitment, the Ministry of Water, Irrigation, and Energy (MoWIE
 
 In response to a request from the MoWIE, UNDESA is implementing a joint capacity development project coordinated by the Economic Analysis and Policy Division (EAPD) and the Division for Public Institutions and Digital Governance (DPIDG), in partnership with the United Nations Development Programme (UNDP) and the United Nations Economic Commission for Africa (ECA). The project aims to support the government in transitioning from sectoral- to integrated policy making. It will support the government in adopting the Climate, Land, Energy and Water systems (CLEWs) integrated assessment for identifying and managing tradeoffs and synergies in policy and strategy formulation. If such interlinkages are not properly addressed and awareness among policy makers is not cultivated, this is likely to create challenges of competition between food or fuel, security of water supply and issues concerning land use for biofuel production. Hence, the importance of integrated planning and modelling approaches for sustainable development. 
 
-The CLEWs methodology
+**The CLEWs methodology**
 
 The pursuit of sustainable development objectives requires management of an intricate web of interwoven challenges, issues and concerns. Our societies and natural environment consist of highly interlinked systems that depend on, and interact with, each other. These interactions are highly complex and decisions that impact these systems will need to be taken while facing significant uncertainties. One of the means at our disposal for addressing complexity and uncertainty is to use mathematical models. 
 
