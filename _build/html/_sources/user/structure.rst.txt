@@ -77,3 +77,5 @@ Other land uses
 
 .. image:: /user/img/land_use_additional_water.svg
    :class: with-shadow
+
+
