@@ -40,3 +40,11 @@ Largest increase in share of irrigation for Cereals (Other), Coffee, and Sorghum
 
     .. image:: img/area_by_crop_irrigated_baseline.jpg
         :align: center  
+
+**Water use**
+
+Largest increase in water use in agriculture sector: 11 bcm in 2019 to over 41 bcm in 2030
+Total water use is within total available water resources, but may exceed groundwater replenishment rates in regions with high shares of irrigated crop area.
+
+    .. image:: img/water_use_baseline.jpg
+        :align: center 
