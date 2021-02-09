@@ -18,11 +18,3 @@ Welcome to CLEWS Ethiopia Model's documentation!
    user/results
    user/conclusions
    user/annex
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

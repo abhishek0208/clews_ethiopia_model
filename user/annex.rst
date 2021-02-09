@@ -15,7 +15,7 @@ Sets
 ====
 .. csv-table:: 
    :file: ./tables/sets.csv
-   :widths: 30, 70, 70
+   :widths: 70, 100, 30
    :header-rows: 1
 
 Parameters
@@ -29,7 +29,7 @@ Variables
 =========
 .. csv-table:: 
    :file: ./tables/variables.csv
-   :widths: 30, 70, 70
+   :widths: 70, 100, 30
    :header-rows: 0
 
    

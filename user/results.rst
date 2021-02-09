@@ -2,7 +2,33 @@
 Results
 =======
 
-The latest results of the CLEWS-Ethiopia model are below.
+The latest results of the CLEWS-Ethiopia model for all scenarios are presented in this section.
 
-.. raw:: 
-    :file: ../user/img/osemosys_ETH_21-08-2020_v1.html
+Baseline
+^^^^^^^^
+
+**Power capacity**
+
+    .. image:: img/power_capacity_baseline.jpg
+        :align: center
+
+
+**Power generation**
+
+    .. image:: img/power_capacity_baseline.jpg
+        :align: center 
+
+**CO**:subscript:`2` **emissions**
+
+    .. image:: img/power_capacity_baseline.jpg
+        :align: center 
+
+**Power generation capacity**
+
+    .. image:: img/power_capacity_baseline.jpg
+        :align: center 
+
+**Power generation capacity**
+
+    .. image:: img/power_capacity_baseline.jpg
+        :align: center  
