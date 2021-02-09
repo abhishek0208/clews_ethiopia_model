@@ -50,14 +50,32 @@ Total water use is within total available water resources, but may exceed ground
 
 Agriculture Modernisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-Substantial potential for modernization of agriculture. Yields (tonnes produced per hectare) could improve by 50 to 110% through greater use of inputs and mechanization
+**Substantial potential for modernization of agriculture.** Yields (tonnes produced per hectare) could improve by 50 to 110% through greater use of inputs and mechanization
 
-Productivity improvements would limit the need for additional cropland, but does require additional inputs in the form of energy, water, pesticides and fertilizer
+**Productivity improvements** would limit the need for additional cropland, but does require additional inputs in the form of energy, water, pesticides and fertilizer
 
-Requires substantial increase in investment and inputs. Annual investment would need to be 2-3 times higher than present average  
+**Requires substantial increase in investment and inputs**. Annual investment would need to be 2-3 times higher than present average  
 
     .. image:: img/agriculture_modernisation_1.jpg
         :align: center 
     |
     .. image:: img/agriculture_modernisation_2.jpg
+        :align: center 
+
+Manufacturing Sector
+^^^^^^^^^^^^^^^^^^^^
+
+**Large increase in electricity supply needed.** 
+Additional demand for 5-20 TWh of electricity for the industrial sector
+
+**Large increase in demand for industrial heat.** 
+Additional demand for fuels that can meet steam and direct heat demands in industry 34 – 97 PJ 
+
+**Significant increase in emissions.** 
+60-270% higher than in 2019
+
+**Water demand increase.** 
+Water demand for industry triples, but it remains a small share of total demand
+
+    .. image:: img/manufacturing_sector.jpg
         :align: center 
