@@ -31,20 +31,33 @@ the livestock sector is responsible for more than 85% of overall GHG emissions.
 
 **Land use**
 
-Area under irrigation increases from 1.3% of total crop area in 2019 to around 3.8%  by 2030
-Largest increase in share of irrigation for Cereals (Other), Coffee, and Sorghum
+Area under irrigation increases from 1.3% of total crop area in 2019 to around 3.8%  by 2030. 
+The largest increase in share of irrigation for Cereals (Other), Coffee, and Sorghum
 
     .. image:: img/area_by_crop_baseline.jpg
         :align: center 
     |
-
     .. image:: img/area_by_crop_irrigated_baseline.jpg
         :align: center  
 
 **Water use**
 
-Largest increase in water use in agriculture sector: 11 bcm in 2019 to over 41 bcm in 2030
+Largest increase in water use in agriculture sector: 11 bcm in 2019 to over 41 bcm in 2030. 
 Total water use is within total available water resources, but may exceed groundwater replenishment rates in regions with high shares of irrigated crop area.
 
     .. image:: img/water_use_baseline.jpg
+        :align: center 
+
+Agriculture Modernisation
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Substantial potential for modernization of agriculture. Yields (tonnes produced per hectare) could improve by 50 to 110% through greater use of inputs and mechanization
+
+Productivity improvements would limit the need for additional cropland, but does require additional inputs in the form of energy, water, pesticides and fertilizer
+
+Requires substantial increase in investment and inputs. Annual investment would need to be 2-3 times higher than present average  
+
+    .. image:: img/agriculture_modernisation_1.jpg
+        :align: center 
+    |
+    .. image:: img/agriculture_modernisation_2.jpg
         :align: center 
