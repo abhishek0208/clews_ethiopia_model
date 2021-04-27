@@ -4,11 +4,15 @@ Data
 
 Socio-economic trends
 ^^^^^^^^^^^^^^^^^^^^^
-Population
-----------
+Population (millions)
+---------------------
+.. csv-table:: 
+   :file: ./tables/population.csv
+   :widths: 50, 25, 25, 25, 25
+   :header-rows: 1
 
-GDP
----
+GDP growth (%)
+--------------
 .. csv-table:: 
    :file: ./tables/gdp.csv
    :widths: 70, 25, 25, 25, 25, 25, 25
@@ -16,11 +20,26 @@ GDP
 
 Energy sector
 ^^^^^^^^^^^^^
-Demands
--------
+Demands (Petajoules)
+--------------------
+.. csv-table:: 
+   :file: ./tables/energy_demands.csv
+   :widths: 50, 50, 50, 50, 50, 25, 25, 25, 25
+   :header-rows: 1
 
-Powerplants
------------
+Powerplants - existing capacity (Gigawatts)
+-------------------------------------------
+.. csv-table:: 
+   :file: ./tables/powerplant_capacity_existing.csv
+   :widths: 50, 50, 50, 25, 25, 25, 25
+   :header-rows: 1
+
+Powerplants - planned capacity (Gigawatts)
+------------------------------------------
+.. csv-table:: 
+   :file: ./tables/powerplant_capacity_planned.csv
+   :widths: 50, 50, 50, 50, 25, 25, 25, 25
+   :header-rows: 1
 
 Costs
 -----

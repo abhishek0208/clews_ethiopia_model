@@ -89,13 +89,14 @@
 <li class="toctree-l1"><a class="reference internal" href="structure.html">Model structure</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Data</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#socio-economic-trends">Socio-economic trends</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#population">Population</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#gdp">GDP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#population-millions">Population (millions)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gdp-growth">GDP growth (%)</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#energy-sector">Energy sector</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#demands">Demands</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#powerplants">Powerplants</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#demands-petajoules">Demands (Petajoules)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#powerplants-existing-capacity-gigawatts">Powerplants - existing capacity (Gigawatts)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#powerplants-planned-capacity-gigawatts">Powerplants - planned capacity (Gigawatts)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#costs">Costs</a></li>
 </ul>
 </li>
@@ -185,11 +186,36 @@
 <h1>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="socio-economic-trends">
 <h2>Socio-economic trends<a class="headerlink" href="#socio-economic-trends" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="population">
-<h3>Population<a class="headerlink" href="#population" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="population-millions">
+<h3>Population (millions)<a class="headerlink" href="#population-millions" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Scenario</p></th>
+<th class="head"><p>2015</p></th>
+<th class="head"><p>2020</p></th>
+<th class="head"><p>2025</p></th>
+<th class="head"><p>2030</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Medium variant</p></td>
+<td><p>100.84</p></td>
+<td><p>114.96</p></td>
+<td><p>129.75</p></td>
+<td><p>144.94</p></td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="section" id="gdp">
-<h3>GDP<a class="headerlink" href="#gdp" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="gdp-growth">
+<h3>GDP growth (%)<a class="headerlink" href="#gdp-growth" title="Permalink to this headline">¶</a></h3>
 <table class="colwidths-given docutils align-default">
 <colgroup>
 <col style="width: 32%" />
@@ -249,11 +275,967 @@
 </div>
 <div class="section" id="energy-sector">
 <h2>Energy sector<a class="headerlink" href="#energy-sector" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="demands">
-<h3>Demands<a class="headerlink" href="#demands" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="demands-petajoules">
+<h3>Demands (Petajoules)<a class="headerlink" href="#demands-petajoules" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Commodity</p></th>
+<th class="head"><p>Driver 1</p></th>
+<th class="head"><p>Driver 1 coupling</p></th>
+<th class="head"><p>Driver 2</p></th>
+<th class="head"><p>Driver 2 coupling</p></th>
+<th class="head"><p>2015</p></th>
+<th class="head"><p>2020</p></th>
+<th class="head"><p>2025</p></th>
+<th class="head"><p>2030</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AGRDSL</p></td>
+<td><p>GDP per capita</p></td>
+<td><p>0.5</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>5.76</p></td>
+<td><p>7.63</p></td>
+<td><p>10.08</p></td>
+<td><p>13.80</p></td>
+</tr>
+<tr class="row-odd"><td><p>AGRELC002</p></td>
+<td><p>GDP per capita</p></td>
+<td><p>1.25</p></td>
+<td><p>Electrification rate</p></td>
+<td><p>0.5</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>COMBIO</p></td>
+<td><p>GDP (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>GDP per capita</p></td>
+<td><p>-0.5</p></td>
+<td><p>15.79</p></td>
+<td><p>17.61</p></td>
+<td><p>18.79</p></td>
+<td><p>19.96</p></td>
+</tr>
+<tr class="row-odd"><td><p>COMDSL</p></td>
+<td><p>GDP (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>Population</p></td>
+<td><p>0</p></td>
+<td><p>2.45</p></td>
+<td><p>2.91</p></td>
+<td><p>3.64</p></td>
+<td><p>4.75</p></td>
+</tr>
+<tr class="row-even"><td><p>COMELC002</p></td>
+<td><p>GDP (real)</p></td>
+<td><p>1</p></td>
+<td><p>Electrification rate</p></td>
+<td><p>0</p></td>
+<td><p>8.62</p></td>
+<td><p>12.06</p></td>
+<td><p>18.72</p></td>
+<td><p>31.41</p></td>
+</tr>
+<tr class="row-odd"><td><p>INDDSL</p></td>
+<td><p>GDP - industry (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>Population</p></td>
+<td><p>0</p></td>
+<td><p>20.98</p></td>
+<td><p>27.65</p></td>
+<td><p>36.49</p></td>
+<td><p>51.89</p></td>
+</tr>
+<tr class="row-even"><td><p>INDELC002</p></td>
+<td><p>GDP - industry (real)</p></td>
+<td><p>1</p></td>
+<td><p>Electrification rate</p></td>
+<td><p>0</p></td>
+<td><p>10.93</p></td>
+<td><p>18.62</p></td>
+<td><p>31.95</p></td>
+<td><p>63.15</p></td>
+</tr>
+<tr class="row-odd"><td><p>INDHFO</p></td>
+<td><p>GDP - industry (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>Population</p></td>
+<td><p>0</p></td>
+<td><p>2.91</p></td>
+<td><p>3.83</p></td>
+<td><p>5.06</p></td>
+<td><p>7.19</p></td>
+</tr>
+<tr class="row-even"><td><p>INDNAP</p></td>
+<td><p>GDP - industry (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>Population</p></td>
+<td><p>0</p></td>
+<td><p>1.69</p></td>
+<td><p>2.23</p></td>
+<td><p>2.94</p></td>
+<td><p>4.18</p></td>
+</tr>
+<tr class="row-odd"><td><p>INDOHC</p></td>
+<td><p>GDP - industry (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>Population</p></td>
+<td><p>0</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>MIGCOA</p></td>
+<td><p>GDP - industry (real)</p></td>
+<td><p>0.6</p></td>
+<td><p>Population</p></td>
+<td><p>0</p></td>
+<td><p>1.09</p></td>
+<td><p>1.52</p></td>
+<td><p>2.11</p></td>
+<td><p>3.21</p></td>
+</tr>
+<tr class="row-odd"><td><p>MIGELC002</p></td>
+<td><p>GDP - industry (real)</p></td>
+<td><p>0.6</p></td>
+<td><p>Electrification rate</p></td>
+<td><p>0</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>MIGPCK</p></td>
+<td><p>GDP - industry (real)</p></td>
+<td><p>0.6</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>9.13</p></td>
+<td><p>15.50</p></td>
+<td><p>24.17</p></td>
+<td><p>40.73</p></td>
+</tr>
+<tr class="row-odd"><td><p>OTHDSL</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>Population</p></td>
+<td><p>0</p></td>
+<td><p>5.76</p></td>
+<td><p>7.16</p></td>
+<td><p>8.08</p></td>
+<td><p>9.02</p></td>
+</tr>
+<tr class="row-even"><td><p>OTHELC002</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>Electrification rate</p></td>
+<td><p>0</p></td>
+<td><p>0.23</p></td>
+<td><p>0.29</p></td>
+<td><p>0.33</p></td>
+<td><p>0.37</p></td>
+</tr>
+<tr class="row-odd"><td><p>OTHOHC</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>Population</p></td>
+<td><p>0</p></td>
+<td><p>3.82</p></td>
+<td><p>4.74</p></td>
+<td><p>5.35</p></td>
+<td><p>5.98</p></td>
+</tr>
+<tr class="row-even"><td><p>RESBIO</p></td>
+<td><p>GDP per capita</p></td>
+<td><p>-0.3</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>1569.63</p></td>
+<td><p>1872.91</p></td>
+<td><p>1917.58</p></td>
+<td><p>1888.83</p></td>
+</tr>
+<tr class="row-odd"><td><p>RESELC002</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>Electrification rate</p></td>
+<td><p>1</p></td>
+<td><p>11.91</p></td>
+<td><p>21.05</p></td>
+<td><p>52.31</p></td>
+<td><p>86.47</p></td>
+</tr>
+<tr class="row-even"><td><p>RESKER</p></td>
+<td><p>GDP per capita</p></td>
+<td><p>-0.1</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>11.74</p></td>
+<td><p>14.39</p></td>
+<td><p>15.72</p></td>
+<td><p>16.85</p></td>
+</tr>
+<tr class="row-odd"><td><p>RESLPG</p></td>
+<td><p>GDP per capita</p></td>
+<td><p>0.2</p></td>
+<td><p>Population</p></td>
+<td><p>1</p></td>
+<td><p>0.38</p></td>
+<td><p>0.48</p></td>
+<td><p>0.58</p></td>
+<td><p>0.70</p></td>
+</tr>
+<tr class="row-even"><td><p>TRADSL</p></td>
+<td><p>GDP (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>Population</p></td>
+<td><p>0.5</p></td>
+<td><p>53.79</p></td>
+<td><p>71.04</p></td>
+<td><p>94.28</p></td>
+<td><p>129.60</p></td>
+</tr>
+<tr class="row-odd"><td><p>TRAELC002</p></td>
+<td><p>GDP (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>Electrification rate</p></td>
+<td><p>0.5</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+<td><p>0.00</p></td>
+</tr>
+<tr class="row-even"><td><p>TRAGSL</p></td>
+<td><p>GDP (real)</p></td>
+<td><p>0.5</p></td>
+<td><p>Population</p></td>
+<td><p>0.5</p></td>
+<td><p>14.75</p></td>
+<td><p>19.48</p></td>
+<td><p>25.86</p></td>
+<td><p>35.54</p></td>
+</tr>
+<tr class="row-odd"><td><p>TRAJET</p></td>
+<td><p>GDP (real)</p></td>
+<td><p>0.75</p></td>
+<td><p>Population</p></td>
+<td><p>0.5</p></td>
+<td><p>3.18</p></td>
+<td><p>4.55</p></td>
+<td><p>6.72</p></td>
+<td><p>10.48</p></td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="section" id="powerplants">
-<h3>Powerplants<a class="headerlink" href="#powerplants" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="powerplants-existing-capacity-gigawatts">
+<h3>Powerplants - existing capacity (Gigawatts)<a class="headerlink" href="#powerplants-existing-capacity-gigawatts" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Technology</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>MoManI name</p></th>
+<th class="head"><p>2015</p></th>
+<th class="head"><p>2020</p></th>
+<th class="head"><p>2025</p></th>
+<th class="head"><p>2030</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Small  Hydro</p></td>
+<td><p>Sor</p></td>
+<td><p>PWRHYD001</p></td>
+<td><p>0.0052</p></td>
+<td><p>0.0049</p></td>
+<td><p>0.0047</p></td>
+<td><p>0.0044</p></td>
+</tr>
+<tr class="row-odd"><td><p>Small  Hydro</p></td>
+<td><p>Tis Abay I</p></td>
+<td><p>PWRHYD002</p></td>
+<td><p>0.0085</p></td>
+<td><p>0.0082</p></td>
+<td><p>0.0079</p></td>
+<td><p>0.0077</p></td>
+</tr>
+<tr class="row-even"><td><p>Medium Hydro</p></td>
+<td><p>Melka Wakena (refurb 2014)</p></td>
+<td><p>PWRHYD003</p></td>
+<td><p>0.0380</p></td>
+<td><p>0.0377</p></td>
+<td><p>0.0375</p></td>
+<td><p>0.0372</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium Hydro</p></td>
+<td><p>Amerti Neshe</p></td>
+<td><p>PWRHYD004</p></td>
+<td><p>0.0979</p></td>
+<td><p>0.0977</p></td>
+<td><p>0.0974</p></td>
+<td><p>0.0972</p></td>
+</tr>
+<tr class="row-even"><td><p>Medium Hydro</p></td>
+<td><p>Tis Abay II</p></td>
+<td><p>PWRHYD005</p></td>
+<td><p>0.0723</p></td>
+<td><p>0.0721</p></td>
+<td><p>0.0718</p></td>
+<td><p>0.0716</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium Hydro</p></td>
+<td><p>Koka</p></td>
+<td><p>PWRHYD006</p></td>
+<td><p>0.0403</p></td>
+<td><p>0.0400</p></td>
+<td><p>0.0398</p></td>
+<td><p>0.0395</p></td>
+</tr>
+<tr class="row-even"><td><p>Medium Hydro</p></td>
+<td><p>Awash II</p></td>
+<td><p>PWRHYD007</p></td>
+<td><p>0.0296</p></td>
+<td><p>0.0293</p></td>
+<td><p>0.0291</p></td>
+<td><p>0.0288</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium Hydro</p></td>
+<td><p>Awash III</p></td>
+<td><p>PWRHYD008</p></td>
+<td><p>0.0298</p></td>
+<td><p>0.0296</p></td>
+<td><p>0.0293</p></td>
+<td><p>0.0291</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Finchaa</p></td>
+<td><p>PWRHYD009</p></td>
+<td><p>0.1319</p></td>
+<td><p>0.1316</p></td>
+<td><p>0.1314</p></td>
+<td><p>0.1311</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Melka Wakena</p></td>
+<td><p>PWRHYD010</p></td>
+<td><p>0.1129</p></td>
+<td><p>0.1127</p></td>
+<td><p>0.1124</p></td>
+<td><p>0.1122</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Tana Beles</p></td>
+<td><p>PWRHYD011</p></td>
+<td><p>0.4598</p></td>
+<td><p>0.4595</p></td>
+<td><p>0.4593</p></td>
+<td><p>0.4590</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Gilgel Gibe II</p></td>
+<td><p>PWRHYD012</p></td>
+<td><p>0.4198</p></td>
+<td><p>0.4195</p></td>
+<td><p>0.4193</p></td>
+<td><p>0.4190</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Tekeze</p></td>
+<td><p>PWRHYD013</p></td>
+<td><p>0.2997</p></td>
+<td><p>0.2995</p></td>
+<td><p>0.2992</p></td>
+<td><p>0.2990</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Gigel Gibe I</p></td>
+<td><p>PWRHYD014</p></td>
+<td><p>0.1835</p></td>
+<td><p>0.1832</p></td>
+<td><p>0.1830</p></td>
+<td><p>0.1827</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Gilgel Gibe III</p></td>
+<td><p>PWRHYD015</p></td>
+<td><p>0.7480</p></td>
+<td><p>0.7477</p></td>
+<td><p>0.7475</p></td>
+<td><p>0.7472</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Gilgel Gibe III</p></td>
+<td><p>PWRHYD016</p></td>
+<td><p>1.1220</p></td>
+<td><p>1.1218</p></td>
+<td><p>1.1215</p></td>
+<td><p>1.1213</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Genale Dawa III</p></td>
+<td><p>PWRHYD017</p></td>
+<td><p>0.2540</p></td>
+<td><p>0.2538</p></td>
+<td><p>0.2535</p></td>
+<td><p>0.2533</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind</p></td>
+<td><p>Adama</p></td>
+<td><p>PWRWND001</p></td>
+<td><p>0.0509</p></td>
+<td><p>0.0506</p></td>
+<td><p>0.0504</p></td>
+<td><p>0.0000</p></td>
+</tr>
+<tr class="row-even"><td><p>Wind</p></td>
+<td><p>Ashegoda I</p></td>
+<td><p>PWRWND002</p></td>
+<td><p>0.0299</p></td>
+<td><p>0.0296</p></td>
+<td><p>0.0294</p></td>
+<td><p>0.0000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind</p></td>
+<td><p>Ashegoda II</p></td>
+<td><p>PWRWND003</p></td>
+<td><p>0.0900</p></td>
+<td><p>0.0897</p></td>
+<td><p>0.0895</p></td>
+<td><p>0.0000</p></td>
+</tr>
+<tr class="row-even"><td><p>Wind</p></td>
+<td><p>Adama II</p></td>
+<td><p>PWRWND004</p></td>
+<td><p>0.1530</p></td>
+<td><p>0.1528</p></td>
+<td><p>0.1525</p></td>
+<td><p>0.1523</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind</p></td>
+<td><p>Iteya I</p></td>
+<td><p>PWRWND005</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.1998</p></td>
+<td><p>0.1996</p></td>
+<td><p>0.1993</p></td>
+</tr>
+<tr class="row-even"><td><p>Wind</p></td>
+<td><p>Iteya II</p></td>
+<td><p>PWRWND006</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.1998</p></td>
+<td><p>0.1996</p></td>
+<td><p>0.1993</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind</p></td>
+<td><p>Iteya III</p></td>
+<td><p>PWRWND007</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.1999</p></td>
+<td><p>0.1996</p></td>
+<td><p>0.1994</p></td>
+</tr>
+<tr class="row-even"><td><p>Wind</p></td>
+<td><p>Debire Birhan</p></td>
+<td><p>PWRWND008</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0999</p></td>
+<td><p>0.0996</p></td>
+<td><p>0.0994</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind</p></td>
+<td><p>Ayisha I&amp;II</p></td>
+<td><p>PWRWND009</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.4199</p></td>
+<td><p>0.4196</p></td>
+<td><p>0.4194</p></td>
+</tr>
+<tr class="row-even"><td><p>Solar</p></td>
+<td><p>Metehara</p></td>
+<td><p>PWRSOL001</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0998</p></td>
+<td><p>0.0996</p></td>
+<td><p>0.0993</p></td>
+</tr>
+<tr class="row-odd"><td><p>Solar</p></td>
+<td><p>Mekele</p></td>
+<td><p>PWRSOL002</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0998</p></td>
+<td><p>0.0996</p></td>
+<td><p>0.0993</p></td>
+</tr>
+<tr class="row-even"><td><p>Solar</p></td>
+<td><p>Humera</p></td>
+<td><p>PWRSOL003</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0998</p></td>
+<td><p>0.0996</p></td>
+<td><p>0.0993</p></td>
+</tr>
+<tr class="row-odd"><td><p>Geothermal</p></td>
+<td><p>Aluto Langano</p></td>
+<td><p>PWRGEO001</p></td>
+<td><p>0.0066</p></td>
+<td><p>0.0064</p></td>
+<td><p>0.0061</p></td>
+<td><p>0.0059</p></td>
+</tr>
+<tr class="row-even"><td><p>Geothermal</p></td>
+<td><p>Aluto Langano III</p></td>
+<td><p>PWRGEO002</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0999</p></td>
+<td><p>0.0996</p></td>
+<td><p>0.0994</p></td>
+</tr>
+<tr class="row-odd"><td><p>Geothermal</p></td>
+<td><p>Tendaho</p></td>
+<td><p>PWRGEO003</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0998</p></td>
+<td><p>0.0996</p></td>
+<td><p>0.0993</p></td>
+</tr>
+<tr class="row-even"><td><p>Biomass</p></td>
+<td><p>Bamza</p></td>
+<td><p>PWRBIO001</p></td>
+<td><p>0.1200</p></td>
+<td><p>0.1198</p></td>
+<td><p>0.1195</p></td>
+<td><p>0.1193</p></td>
+</tr>
+<tr class="row-odd"><td><p>Biomass</p></td>
+<td><p>Meikasedi</p></td>
+<td><p>PWRBIO002</p></td>
+<td><p>0.1375</p></td>
+<td><p>0.1373</p></td>
+<td><p>0.1370</p></td>
+<td><p>0.1368</p></td>
+</tr>
+<tr class="row-even"><td><p>Diesel</p></td>
+<td><p>Dire Dawa</p></td>
+<td><p>PWRDSL001</p></td>
+<td><p>0.0400</p></td>
+<td><p>0.0397</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0000</p></td>
+</tr>
+<tr class="row-odd"><td><p>Diesel</p></td>
+<td><p>Awash 7 Kilo</p></td>
+<td><p>PWRDSL002</p></td>
+<td><p>0.0350</p></td>
+<td><p>0.0347</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0000</p></td>
+</tr>
+<tr class="row-even"><td><p>Diesel</p></td>
+<td><p>Kality</p></td>
+<td><p>PWRDSL003</p></td>
+<td><p>0.0120</p></td>
+<td><p>0.0117</p></td>
+<td><p>0.0000</p></td>
+<td><p>0.0000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="powerplants-planned-capacity-gigawatts">
+<h3>Powerplants - planned capacity (Gigawatts)<a class="headerlink" href="#powerplants-planned-capacity-gigawatts" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Technology</p></th>
+<th class="head"><p>Name</p></th>
+<th class="head"><p>MoManI name</p></th>
+<th class="head"><p>Construction year</p></th>
+<th class="head"><p>2015</p></th>
+<th class="head"><p>2020</p></th>
+<th class="head"><p>2025</p></th>
+<th class="head"><p>2030</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Small  Hydro</p></td>
+<td><p>Abu Samuel</p></td>
+<td><p>PWRHYD018</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.006</p></td>
+<td><p>0.006</p></td>
+<td><p>0.006</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium Hydro</p></td>
+<td><p>Wabi Shebele</p></td>
+<td><p>PWRHYD019</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.088</p></td>
+<td><p>0.088</p></td>
+<td><p>0.088</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Genji</p></td>
+<td><p>PWRHYD020</p></td>
+<td><p>2024</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0.214</p></td>
+<td><p>0.214</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Geba 1 + Geba 2</p></td>
+<td><p>PWRHYD021</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.372</p></td>
+<td><p>0.372</p></td>
+<td><p>0.372</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Genale V</p></td>
+<td><p>PWRHYD022</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Gibe IV</p></td>
+<td><p>PWRHYD023</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Upper Dabus</p></td>
+<td><p>PWRHYD024</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.326</p></td>
+<td><p>0.326</p></td>
+<td><p>0.326</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Birbir River</p></td>
+<td><p>PWRHYD025</p></td>
+<td><p>2023</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0.467</p></td>
+<td><p>0.467</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Werabesa + Halele</p></td>
+<td><p>PWRHYD026</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.422</p></td>
+<td><p>0.422</p></td>
+<td><p>0.422</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Yeda 1 + Yeda 2</p></td>
+<td><p>PWRHYD027</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.28</p></td>
+<td><p>0.28</p></td>
+<td><p>0.28</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Genale Dawa VI</p></td>
+<td><p>PWRHYD028</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.256</p></td>
+<td><p>0.256</p></td>
+<td><p>0.256</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Gibe V</p></td>
+<td><p>PWRHYD029</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.66</p></td>
+<td><p>0.66</p></td>
+<td><p>0.66</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Lower Didessa</p></td>
+<td><p>PWRHYD030</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.55</p></td>
+<td><p>0.55</p></td>
+<td><p>0.55</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Baro 1 + Baro 2</p></td>
+<td><p>PWRHYD031</p></td>
+<td><p>2024</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0.645</p></td>
+<td><p>0.645</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Tekeze II</p></td>
+<td><p>PWRHYD032</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.45</p></td>
+<td><p>0.45</p></td>
+<td><p>0.45</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Gojeb</p></td>
+<td><p>PWRHYD033</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.15</p></td>
+<td><p>0.15</p></td>
+<td><p>0.15</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Aleltu East</p></td>
+<td><p>PWRHYD034</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.189</p></td>
+<td><p>0.189</p></td>
+<td><p>0.189</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Tams</p></td>
+<td><p>PWRHYD035</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>1.7</p></td>
+<td><p>1.7</p></td>
+<td><p>1.7</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Aleltu West</p></td>
+<td><p>PWRHYD036</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.265</p></td>
+<td><p>0.265</p></td>
+<td><p>0.265</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Lower Dabus</p></td>
+<td><p>PWRHYD037</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.25</p></td>
+<td><p>0.25</p></td>
+<td><p>0.25</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Karadobi</p></td>
+<td><p>PWRHYD038</p></td>
+<td><p>2021</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>1.6</p></td>
+<td><p>1.6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Beko Abo</p></td>
+<td><p>PWRHYD039</p></td>
+<td><p>2022</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0.935</p></td>
+<td><p>0.935</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Upper Mendaya</p></td>
+<td><p>PWRHYD040</p></td>
+<td><p>2023</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>1.7</p></td>
+<td><p>1.7</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Hydro</p></td>
+<td><p>Grand Renaissance</p></td>
+<td><p>PWRHYD041</p></td>
+<td><p>2018</p></td>
+<td><p>0</p></td>
+<td><p>0.5</p></td>
+<td><p>0.5</p></td>
+<td><p>0.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Large Hydro</p></td>
+<td><p>Grand Renaissance II</p></td>
+<td><p>PWRHYD042</p></td>
+<td><p>2022</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind</p></td>
+<td><p>[No name]</p></td>
+<td><p>PWRWND010</p></td>
+<td><p>2021</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0.91</p></td>
+<td><p>0.91</p></td>
+</tr>
+<tr class="row-even"><td><p>Wind</p></td>
+<td><p>Dila</p></td>
+<td><p>PWRWND011</p></td>
+<td><p>2018</p></td>
+<td><p>0</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind</p></td>
+<td><p>Assela</p></td>
+<td><p>PWRWND012</p></td>
+<td><p>2018</p></td>
+<td><p>0</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+</tr>
+<tr class="row-even"><td><p>Wind</p></td>
+<td><p>Sululta</p></td>
+<td><p>PWRWND013</p></td>
+<td><p>2019</p></td>
+<td><p>0</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind</p></td>
+<td><p>Mega Maji</p></td>
+<td><p>PWRWND014</p></td>
+<td><p>2019</p></td>
+<td><p>0</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+<td><p>0.1</p></td>
+</tr>
+<tr class="row-even"><td><p>Solar</p></td>
+<td><p>[No name]</p></td>
+<td><p>PWRSOL004</p></td>
+<td><p>2021</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0.45</p></td>
+<td><p>0.45</p></td>
+</tr>
+<tr class="row-odd"><td><p>Geothermal</p></td>
+<td><p>[No name]</p></td>
+<td><p>PWRGEO004</p></td>
+<td><p>2021</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0.34</p></td>
+<td><p>0.34</p></td>
+</tr>
+<tr class="row-even"><td><p>Geothermal</p></td>
+<td><p>Corbetti</p></td>
+<td><p>PWRGEO005</p></td>
+<td><p>2022</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Geothermal</p></td>
+<td><p>Tulu Moye/Abaya</p></td>
+<td><p>PWRGEO006</p></td>
+<td><p>2022</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0.5</p></td>
+<td><p>0.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Geothermal</p></td>
+<td><p>Aluto Langano II</p></td>
+<td><p>PWRGEO007</p></td>
+<td><p>2018</p></td>
+<td><p>0</p></td>
+<td><p>0.075</p></td>
+<td><p>0.075</p></td>
+<td><p>0.075</p></td>
+</tr>
+<tr class="row-odd"><td><p>Biomass</p></td>
+<td><p>Addis Ababa Reppi</p></td>
+<td><p>PWRBIO003</p></td>
+<td><p>2018</p></td>
+<td><p>0</p></td>
+<td><p>0.05</p></td>
+<td><p>0.05</p></td>
+<td><p>0.05</p></td>
+</tr>
+<tr class="row-even"><td><p>Natural gas</p></td>
+<td><p>OCGT/GT (Gas Turbine)</p></td>
+<td><p>PWRNGS001</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.14</p></td>
+<td><p>0.14</p></td>
+<td><p>0.14</p></td>
+</tr>
+<tr class="row-odd"><td><p>Natural gas</p></td>
+<td><p>CCGT (Natural gas power plant)</p></td>
+<td><p>PWRNGS002</p></td>
+<td><p>2020</p></td>
+<td><p>0</p></td>
+<td><p>0.42</p></td>
+<td><p>0.42</p></td>
+<td><p>0.42</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="costs">
 <h3>Costs<a class="headerlink" href="#costs" title="Permalink to this headline">¶</a></h3>
