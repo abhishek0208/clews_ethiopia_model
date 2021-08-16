@@ -6,7 +6,9 @@ Socio-economic trends
 ^^^^^^^^^^^^^^^^^^^^^
 Population (millions)
 ---------------------
-Source: 
+**Source**: *Population Dynamics and Priority Issues 
+for Ethiopia’s 15 Years Perspective Development Plan, 2018, 
+Ethiopian Academy of Sciences*
 
 .. csv-table:: 
    :file: ./tables/population.csv
@@ -15,7 +17,7 @@ Source:
 
 GDP growth (%)
 --------------
-Source: 
+**Source**: *Planning and Development Commission of Ethiopia*
 
 .. csv-table:: 
    :file: ./tables/gdp.csv
@@ -26,7 +28,7 @@ Energy sector
 ^^^^^^^^^^^^^
 Demands (Petajoules)
 --------------------
-Source: 
+**Source**: *Own projections based on data from IEA World Energy Statistics (2018)*
 
 .. csv-table:: 
    :file: ./tables/energy_demands.csv
@@ -35,7 +37,7 @@ Source:
 
 Powerplants - existing capacity (Gigawatts)
 -------------------------------------------
-Source: 
+**Source**: *Ministry of Water, Irrigation and Energy - Ethiopia*
 
 .. csv-table:: 
    :file: ./tables/powerplant_capacity_existing.csv
@@ -44,7 +46,7 @@ Source:
 
 Powerplants - planned capacity (Gigawatts)
 ------------------------------------------
-Source: 
+**Source**: *Ministry of Water, Irrigation and Energy - Ethiopia*
 
 .. csv-table:: 
    :file: ./tables/powerplant_capacity_planned.csv
@@ -55,7 +57,7 @@ Land use
 ^^^^^^^^
 Land area by land use (1000 sq.km.)
 -----------------------------------
-Source: 
+Source: Global Agro-ecological Zones (GAEZ), FAO/IIASA
 
 .. csv-table:: 
    :file: ./tables/land_area.csv
@@ -64,7 +66,7 @@ Source:
 
 Crops: harvested area and production (2016)
 -------------------------------------------
-Source: 
+Source: FAOSTAT Agriculture Statistics
 
 .. csv-table:: 
    :file: ./tables/crop_production.csv
@@ -73,13 +75,66 @@ Source:
 
 Clustering results
 ------------------
+The CLEWs-Ethiopia model is spatially resolved into 'clusters' of land. 
+The clusters are determined by aggregating cells in each region based on the 
+similarity in their agro-climatic characteristics. 
+
+Below are the results of the clustering algorithm for each region. 
+NOTE: Addis Ababa (ADD) is not shown below as it is represented by a single cluster:
+
+**Afar (AFA)**
+
+.. image:: img/clustermap_AFA.svg
+   :align: center  
+
+
+**Amhara (AMH)**
+
+.. image:: img/clustermap_AMH.svg
+   :align: center  
+
+
+**Benishangul-Gumuz (BEN)**
+
+.. image:: img/clustermap_BEN.svg
+   :align: center  
+
+
+**Gambela (GAM)**
+
+.. image:: img/clustermap_GAM.svg
+   :align: center  
+
+
+**Oromia (ORO)**
+
+.. image:: img/clustermap_ORO.svg
+   :align: center  
+
+
+**Somali region (SOM)**
+
+.. image:: img/clustermap_SOM.svg
+   :align: center  
+
+
+**Southern Nations, Nationalities, and Peoples' Region (SOU)**
+
+.. image:: img/clustermap_SOU.svg
+   :align: center  
+
+
+**Tigray (TIG)**
+
+.. image:: img/clustermap_TIG.svg
+   :align: center  
 
 
 Water sector
 ^^^^^^^^^^^^
 Water demand by sector (Billion cubic metres)
 ---------------------------------------------
-Source: 
+**Source**: *Ministry of Water, Irrigation and Energy - Ethiopia*
 
 .. csv-table:: 
    :file: ./tables/water_demand.csv
