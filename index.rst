@@ -16,6 +16,5 @@ Welcome to CLEWS Ethiopia Model's documentation!
    user/data
    user/scenarios
    user/results
-   user/conclusions
    user/model_download
    user/annex
