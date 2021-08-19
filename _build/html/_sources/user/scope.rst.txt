@@ -9,6 +9,9 @@ Below is a summary of the model scope:
 
 
 **Sectors:** Land, energy, water
+
 **Time resolution:** 6 timeslices
+
 **Time horizon:** 2019-2030 
+
 **Spatial resolution:** 10 regions represented as 21 'clusters'
